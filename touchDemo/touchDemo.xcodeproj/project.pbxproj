@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCC40ADE1AAD31D400F83904 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCC40ADD1AAD31D400F83904 /* Foundation.framework */; };
+		CCC40AE01AAD31D400F83904 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCC40ADF1AAD31D400F83904 /* CoreGraphics.framework */; };
+		CCC40AE21AAD31D400F83904 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCC40AE11AAD31D400F83904 /* UIKit.framework */; };
+		CCC40AE81AAD31D400F83904 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CCC40AE61AAD31D400F83904 /* InfoPlist.strings */; };
+		CCC40AEA1AAD31D400F83904 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC40AE91AAD31D400F83904 /* main.m */; };
+		CCC40AEE1AAD31D400F83904 /* SGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC40AED1AAD31D400F83904 /* SGAppDelegate.m */; };
+		CCC40AF11AAD31D400F83904 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCC40AEF1AAD31D400F83904 /* Main.storyboard */; };
+		CCC40AF41AAD31D400F83904 /* SGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC40AF31AAD31D400F83904 /* SGViewController.m */; };
+		CCC40AF61AAD31D400F83904 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCC40AF51AAD31D400F83904 /* Images.xcassets */; };
+		CCC40AFD1AAD31D400F83904 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCC40AFC1AAD31D400F83904 /* XCTest.framework */; };
+		CCC40AFE1AAD31D400F83904 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCC40ADD1AAD31D400F83904 /* Foundation.framework */; };
+		CCC40AFF1AAD31D400F83904 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCC40AE11AAD31D400F83904 /* UIKit.framework */; };
+		CCC40B071AAD31D400F83904 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CCC40B051AAD31D400F83904 /* InfoPlist.strings */; };
+		CCC40B091AAD31D400F83904 /* touchDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC40B081AAD31D400F83904 /* touchDemoTests.m */; };
+		CCC40B151AAD321300F83904 /* CyanSquare.png in Resources */ = {isa = PBXBuildFile; fileRef = CCC40B121AAD321300F83904 /* CyanSquare.png */; };
+		CCC40B161AAD321300F83904 /* MagentaSquare.png in Resources */ = {isa = PBXBuildFile; fileRef = CCC40B131AAD321300F83904 /* MagentaSquare.png */; };
+		CCC40B171AAD321300F83904 /* YellowSquare.png in Resources */ = {isa = PBXBuildFile; fileRef = CCC40B141AAD321300F83904 /* YellowSquare.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCC40B001AAD31D400F83904 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCC40AD21AAD31D400F83904 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCC40AD91AAD31D400F83904;
+			remoteInfo = touchDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CCC40ADA1AAD31D400F83904 /* touchDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = touchDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCC40ADD1AAD31D400F83904 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CCC40ADF1AAD31D400F83904 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CCC40AE11AAD31D400F83904 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CCC40AE51AAD31D400F83904 /* touchDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "touchDemo-Info.plist"; sourceTree = "<group>"; };
+		CCC40AE71AAD31D400F83904 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CCC40AE91AAD31D400F83904 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CCC40AEB1AAD31D400F83904 /* touchDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "touchDemo-Prefix.pch"; sourceTree = "<group>"; };
+		CCC40AEC1AAD31D400F83904 /* SGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGAppDelegate.h; sourceTree = "<group>"; };
+		CCC40AED1AAD31D400F83904 /* SGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGAppDelegate.m; sourceTree = "<group>"; };
+		CCC40AF01AAD31D400F83904 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CCC40AF21AAD31D400F83904 /* SGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGViewController.h; sourceTree = "<group>"; };
+		CCC40AF31AAD31D400F83904 /* SGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGViewController.m; sourceTree = "<group>"; };
+		CCC40AF51AAD31D400F83904 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CCC40AFB1AAD31D400F83904 /* touchDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = touchDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCC40AFC1AAD31D400F83904 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CCC40B041AAD31D400F83904 /* touchDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "touchDemoTests-Info.plist"; sourceTree = "<group>"; };
+		CCC40B061AAD31D400F83904 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CCC40B081AAD31D400F83904 /* touchDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = touchDemoTests.m; sourceTree = "<group>"; };
+		CCC40B121AAD321300F83904 /* CyanSquare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CyanSquare.png; sourceTree = "<group>"; };
+		CCC40B131AAD321300F83904 /* MagentaSquare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MagentaSquare.png; sourceTree = "<group>"; };
+		CCC40B141AAD321300F83904 /* YellowSquare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = YellowSquare.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCC40AD71AAD31D400F83904 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCC40AE01AAD31D400F83904 /* CoreGraphics.framework in Frameworks */,
+				CCC40AE21AAD31D400F83904 /* UIKit.framework in Frameworks */,
+				CCC40ADE1AAD31D400F83904 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCC40AF81AAD31D400F83904 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCC40AFD1AAD31D400F83904 /* XCTest.framework in Frameworks */,
+				CCC40AFF1AAD31D400F83904 /* UIKit.framework in Frameworks */,
+				CCC40AFE1AAD31D400F83904 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCC40AD11AAD31D400F83904 = {
+			isa = PBXGroup;
+			children = (
+				CCC40AE31AAD31D400F83904 /* touchDemo */,
+				CCC40B021AAD31D400F83904 /* touchDemoTests */,
+				CCC40ADC1AAD31D400F83904 /* Frameworks */,
+				CCC40ADB1AAD31D400F83904 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCC40ADB1AAD31D400F83904 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCC40ADA1AAD31D400F83904 /* touchDemo.app */,
+				CCC40AFB1AAD31D400F83904 /* touchDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCC40ADC1AAD31D400F83904 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CCC40ADD1AAD31D400F83904 /* Foundation.framework */,
+				CCC40ADF1AAD31D400F83904 /* CoreGraphics.framework */,
+				CCC40AE11AAD31D400F83904 /* UIKit.framework */,
+				CCC40AFC1AAD31D400F83904 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCC40AE31AAD31D400F83904 /* touchDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CCC40AEC1AAD31D400F83904 /* SGAppDelegate.h */,
+				CCC40AED1AAD31D400F83904 /* SGAppDelegate.m */,
+				CCC40AEF1AAD31D400F83904 /* Main.storyboard */,
+				CCC40AF21AAD31D400F83904 /* SGViewController.h */,
+				CCC40AF31AAD31D400F83904 /* SGViewController.m */,
+				CCC40AF51AAD31D400F83904 /* Images.xcassets */,
+				CCC40AE41AAD31D400F83904 /* Supporting Files */,
+			);
+			path = touchDemo;
+			sourceTree = "<group>";
+		};
+		CCC40AE41AAD31D400F83904 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCC40B121AAD321300F83904 /* CyanSquare.png */,
+				CCC40B131AAD321300F83904 /* MagentaSquare.png */,
+				CCC40B141AAD321300F83904 /* YellowSquare.png */,
+				CCC40AE51AAD31D400F83904 /* touchDemo-Info.plist */,
+				CCC40AE61AAD31D400F83904 /* InfoPlist.strings */,
+				CCC40AE91AAD31D400F83904 /* main.m */,
+				CCC40AEB1AAD31D400F83904 /* touchDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CCC40B021AAD31D400F83904 /* touchDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCC40B081AAD31D400F83904 /* touchDemoTests.m */,
+				CCC40B031AAD31D400F83904 /* Supporting Files */,
+			);
+			path = touchDemoTests;
+			sourceTree = "<group>";
+		};
+		CCC40B031AAD31D400F83904 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCC40B041AAD31D400F83904 /* touchDemoTests-Info.plist */,
+				CCC40B051AAD31D400F83904 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCC40AD91AAD31D400F83904 /* touchDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCC40B0C1AAD31D400F83904 /* Build configuration list for PBXNativeTarget "touchDemo" */;
+			buildPhases = (
+				CCC40AD61AAD31D400F83904 /* Sources */,
+				CCC40AD71AAD31D400F83904 /* Frameworks */,
+				CCC40AD81AAD31D400F83904 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = touchDemo;
+			productName = touchDemo;
+			productReference = CCC40ADA1AAD31D400F83904 /* touchDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCC40AFA1AAD31D400F83904 /* touchDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCC40B0F1AAD31D400F83904 /* Build configuration list for PBXNativeTarget "touchDemoTests" */;
+			buildPhases = (
+				CCC40AF71AAD31D400F83904 /* Sources */,
+				CCC40AF81AAD31D400F83904 /* Frameworks */,
+				CCC40AF91AAD31D400F83904 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCC40B011AAD31D400F83904 /* PBXTargetDependency */,
+			);
+			name = touchDemoTests;
+			productName = touchDemoTests;
+			productReference = CCC40AFB1AAD31D400F83904 /* touchDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCC40AD21AAD31D400F83904 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SG;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = ShaoGe;
+				TargetAttributes = {
+					CCC40AFA1AAD31D400F83904 = {
+						TestTargetID = CCC40AD91AAD31D400F83904;
+					};
+				};
+			};
+			buildConfigurationList = CCC40AD51AAD31D400F83904 /* Build configuration list for PBXProject "touchDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCC40AD11AAD31D400F83904;
+			productRefGroup = CCC40ADB1AAD31D400F83904 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCC40AD91AAD31D400F83904 /* touchDemo */,
+				CCC40AFA1AAD31D400F83904 /* touchDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCC40AD81AAD31D400F83904 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCC40AF61AAD31D400F83904 /* Images.xcassets in Resources */,
+				CCC40B151AAD321300F83904 /* CyanSquare.png in Resources */,
+				CCC40AE81AAD31D400F83904 /* InfoPlist.strings in Resources */,
+				CCC40AF11AAD31D400F83904 /* Main.storyboard in Resources */,
+				CCC40B171AAD321300F83904 /* YellowSquare.png in Resources */,
+				CCC40B161AAD321300F83904 /* MagentaSquare.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCC40AF91AAD31D400F83904 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCC40B071AAD31D400F83904 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCC40AD61AAD31D400F83904 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCC40AEE1AAD31D400F83904 /* SGAppDelegate.m in Sources */,
+				CCC40AF41AAD31D400F83904 /* SGViewController.m in Sources */,
+				CCC40AEA1AAD31D400F83904 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCC40AF71AAD31D400F83904 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCC40B091AAD31D400F83904 /* touchDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCC40B011AAD31D400F83904 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCC40AD91AAD31D400F83904 /* touchDemo */;
+			targetProxy = CCC40B001AAD31D400F83904 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CCC40AE61AAD31D400F83904 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCC40AE71AAD31D400F83904 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CCC40AEF1AAD31D400F83904 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCC40AF01AAD31D400F83904 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CCC40B051AAD31D400F83904 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCC40B061AAD31D400F83904 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCC40B0A1AAD31D400F83904 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CCC40B0B1AAD31D400F83904 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCC40B0D1AAD31D400F83904 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "touchDemo/touchDemo-Prefix.pch";
+				INFOPLIST_FILE = "touchDemo/touchDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CCC40B0E1AAD31D400F83904 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "touchDemo/touchDemo-Prefix.pch";
+				INFOPLIST_FILE = "touchDemo/touchDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CCC40B101AAD31D400F83904 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/touchDemo.app/touchDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "touchDemo/touchDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "touchDemoTests/touchDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CCC40B111AAD31D400F83904 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/touchDemo.app/touchDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "touchDemo/touchDemo-Prefix.pch";
+				INFOPLIST_FILE = "touchDemoTests/touchDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCC40AD51AAD31D400F83904 /* Build configuration list for PBXProject "touchDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCC40B0A1AAD31D400F83904 /* Debug */,
+				CCC40B0B1AAD31D400F83904 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCC40B0C1AAD31D400F83904 /* Build configuration list for PBXNativeTarget "touchDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCC40B0D1AAD31D400F83904 /* Debug */,
+				CCC40B0E1AAD31D400F83904 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CCC40B0F1AAD31D400F83904 /* Build configuration list for PBXNativeTarget "touchDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCC40B101AAD31D400F83904 /* Debug */,
+				CCC40B111AAD31D400F83904 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCC40AD21AAD31D400F83904 /* Project object */;
+}
